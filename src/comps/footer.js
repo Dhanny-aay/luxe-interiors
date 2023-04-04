@@ -3,7 +3,7 @@ const Footer = () => {
         <>
         <div className=" mt-[64px] md:p-8 p-5 lg:px-10">
             <div className=" border-y-2 py-10 flex justify-between flex-col space-y-5 md:space-y-0 md:flex-row">
-                <div className=" space-y-3">eat
+                <div className=" space-y-3">
                     <p  className="font-oswald font-medium tracking-wide text-sm">ABOUT</p>
                     <p  className="font-oswald font-light text-gray-500 tracking-wide text-sm mt-4">News & Stories</p>
                     <p  className="font-oswald font-light text-gray-500 tracking-wide text-sm">Our Studio</p>
