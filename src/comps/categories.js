@@ -4,9 +4,15 @@ import hr from '../image/hrTable.png'
 import wood from '../image/Wood.png'
 import chair from '../image/Chair.png'
 import Image from 'next/image';
-import { useState } from 'react'
+import { useState } from 'react';
+import { TableContext } from '@/contexts/tableContext';
+import { useContext } from 'react'
+
 
 const Category = () => {
+
+    const table = useContext(TableContext);
+
     const [acceCate, setAcceCate] = useState(true);
     const [stoolCate, setStoolCate] = useState(false);
     const [chairCate, setChairCate] = useState(false);

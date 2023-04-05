@@ -7,19 +7,23 @@ import Navbar from '@/comps/navbar';
 import Recog from '@/comps/recog';
 import Update from '@/comps/update';
 import styles from '@/styles/Home.module.css';
+import TableProvider from '@/contexts/tableContext';
+
 
 
 export default function Home() {
   return (
     <>
-    <Navbar/>
-    <Hero/>
-    <Category/>
-    <Advert/>
-    <Feats/>
-    <Update/>
-    <Recog/>
-    <Footer/>
+    <TableProvider>
+      <Navbar/>
+      <Hero/>
+      <Category/>
+      <Advert/>
+      <Feats/>
+      <Update/>
+      <Recog/>
+      <Footer/>
+    </TableProvider>
     </>
   )
 }
