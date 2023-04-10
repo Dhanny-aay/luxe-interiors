@@ -7,14 +7,13 @@ import Navbar from '@/comps/navbar';
 import Recog from '@/comps/recog';
 import Update from '@/comps/update';
 import styles from '@/styles/Home.module.css';
-import TableProvider from '@/contexts/tableContext';
+import TableProvider from '@/contexts/storeContext';
 
 
 
 export default function Home() {
   return (
     <>
-    <TableProvider>
       <Navbar/>
       <Hero/>
       <Category/>
@@ -23,7 +22,6 @@ export default function Home() {
       <Update/>
       <Recog/>
       <Footer/>
-    </TableProvider>
     </>
   )
 }

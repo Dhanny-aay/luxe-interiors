@@ -1,7 +1,7 @@
 import menu from '../image/menu.png';
 import Image from 'next/image';
 import { useContext } from 'react';
-import { TableContext } from '@/contexts/tableContext';
+import { TableContext } from '@/contexts/storeContext';
 
 const Navbar = () => {
     return ( 
