@@ -6,7 +6,7 @@ import { TableContext } from '@/contexts/storeContext';
 const Navbar = () => {
     return ( 
         <>
-        <div className=" lg:py-10 py-5 px-5 md:px-12 items-center bg-white justify-between flex ">
+        <div className=" lg:py-8 py-5 px-5 md:px-12 items-center bg-white justify-between flex ">
             <span className="hidden lg:flex flex-row space-x-6">
                 <p className=" font-Poppins font-medium text-base">Home</p>
                 <p className=" font-Poppins font-medium text-base">Feature</p>
